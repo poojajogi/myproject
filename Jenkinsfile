@@ -7,10 +7,6 @@ node {
      }
      stage('Build') 
      {
-        def antVersion = 'AntDefault'
-        withEnv( ["ANT_HOME=${tool antVersion}"] )
-          {
-            bat '%ANT_HOME%/bin/ant.bat deploy'
-          }
+        echo 'test'
      }
 }
