@@ -1,7 +1,6 @@
+node {
 
-pipeline {
-//agents any
-    stage ('Checkout')
+  stage ('Checkout')
     {
         checkout scm
  }
@@ -14,5 +13,7 @@ pipeline {
     {
         archive 'WebApplication1/bin/Release/**'
  }
+
 }
- 
+
+   
