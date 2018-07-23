@@ -1,12 +1,12 @@
 node {
-stage ('Checkout')
+stage('Checkout')
         {
 
           checkout scm
 
         }
 
-      stage ('Build')
+      stage('Build')
 
         {
 
@@ -16,7 +16,7 @@ stage ('Checkout')
 
         }
 
-       stage ('Archive')
+       stage('Archive')
 
        {
 
